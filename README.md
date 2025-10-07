@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Visi & Misi - UNPER</title>
+    <title>Home - Universitas Perjuangan</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; margin: 0; padding: 0; }
-        .container { width: 80%; margin: 40px auto; background-color: #fff; padding: 30px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-radius: 8px; }
-        h1, h2, h3 { color: #006400; }
-        a { color: #006400; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
-        p, li { line-height: 1.6; }
+        table.layout { width: 80%; margin: 40px auto; border-collapse: collapse; background-color: #ffffff; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+        .header, .footer { background-color: #006400; color: #ffffff; padding: 20px; text-align: center; }
+        .header h1 { margin: 10px 0 0 0; font-size: 2em; }
+        .menu { background-color: #333333; }
+        .menu td { padding: 0; }
+        .menu a { display: block; padding: 15px 10px; color: #ffffff; text-decoration: none; text-align: center; font-weight: bold; }
+        .menu a:hover { background-color: #FFD700; color: #333; }
+        .sidebar { width: 25%; padding: 20px; vertical-align: top; background-color: #f9f9f9; text-align: center; }
+        .content { padding: 20px 30px; vertical-align: top; }
+        .content h2, .content h3 { color: #006400; }
+        .content a { color: #006400; text-decoration: none; }
+        .content a:hover { text-decoration: underline; }
+        img { max-width: 100%; height: auto; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Visi, Misi, dan Tujuan Universitas Perjuangan</h1>
-        
-        <h2>Visi</h2>
-        <p>"TERWUJUDNYA PENYELENGGARAAN TRI DHARMA PERGURUAN TINGGI BERMUTU GUNA MENGHASILKAN SUMBER DAYA MANUSIA UNGGUL KEARIFAN LOKAL DAN BERKARAKTER KEJUANGAN DI TINGKAT INTERNASIONAL 2035."</p>
-
-        <h2>Misi</h2>
-        <ol>
-            <li>Menyelenggarakan program pendidikan berbasis kearifan lokal secara kondusif, disiplin, jujur dan kreatif.</li>
-            <li>Melaksanakan program penelitian ilmiah berbasis kearifan lokal dengan menerapkan prinsip kejujuran, kecermatan, dan kemanfaatan.</li>
-            <li>Melakukan program pengabdian kepada masyarakat berbasis kearifan lokal dengan penuh tanggungjawab.</li>
-            <li>Menciptakan suasana lingkungan kehidupan akademik yang sehat, dinamis, kreatif dalam membentuk lulusan berkarakter kejuangan.</li>
-        </ol>
-
-        <h2>Tujuan</h2>
-        <ul>
-            <li>Terbentuknya lulusan yang memiliki pengetahuan, keterampilan dan sikap disiplin, jujur, tanggungjawab, toleran dan kreatif.</li>
-            <li>Terbentuknya lulusan yang mampu melaksanakan penelitian ilmiah dengan mematuhi etika ilmiah.</li>
-            <li>Terbentuknya lulusan yang dapat mengabdikan pengetahuan dan keterampilannya untuk meningkatkan kesejahteraan masyarakat.</li>
-        </ul>
-        <br>
-        <hr>
-        <a href="index_Raihan.html">← Kembali ke Halaman Utama</a>
-    </div>
+    <table class="layout">
+        <tr>
+            <td colspan="8" class="header">
+                <img src="logounper.png" alt="Logo Universitas Perjuangan" width="120px">
+                <h1>UNIVERSITAS PERJUANGAN TASIKMALAYA</h1>
+            </td>
+        </tr>
+        <tr class="menu">
+            <td><a href="index_Raihan.html">Home</a></td>
+            <td><a href="struktur_Raihan.html">Struktur</a></td>
+            <td><a href="visimisi_Raihan.html">Visi Misi</a></td>
+            <td><a href="fakultas_Raihan.html">Fakultas</a></td>
+            <td><a href="bem_Raihan.html">BEM</a></td>
+            <td><a href="ukm_Raihan.html">UKM</a></td>
+            <td><a href="pmb_Raihan.html">PMB</a></td>
+            <td><a href="hubungi_Raihan.html">Kontak</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sidebar">
+                <h3>Penerimaan Mahasiswa Baru</h3>
+                <hr>
+                <a href="pmb_Raihan.html">
+                    <img src="bannerpmb.jpg" alt="Banner PMB">
+                </a>
+                <br><br>
+                <h3>Jurnal Ilmiah</h3>
+                <hr>
+                <a href="https://e-journal.unper.ac.id/index.php/informatics/">
+                    <img src="bannerjurnal.jpg" alt="Banner Jurnal TI">
+                </a>
+            </td>
+            <td colspan="6" class="content">
+                <h2>SELAMAT DATANG DI UNIVERSITAS PERJUANGAN TASIKMALAYA</h2>
+                <p>Universitas Perjuangan (UNPER) Tasikmalaya adalah sebuah universitas swasta yang berada di bawah naungan Yayasan Universitas Siliwangi. Didirikan melalui SK Mendikbud RI No. 603/E/O/2014 pada tanggal 17 Oktober 2014.</p>
+                <p>Dengan Akreditasi Perguruan Tinggi **"Baik"**, UNPER berkomitmen menyelenggarakan Tri Dharma Perguruan Tinggi yang bermutu untuk menghasilkan sumber daya manusia yang unggul, berkarakter kejuangan, dan berbasis kearifan lokal.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8" class="footer">
+                <p>Copyright © 2025 Raihan - Universitas Perjuangan Tasikmalaya</p>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
